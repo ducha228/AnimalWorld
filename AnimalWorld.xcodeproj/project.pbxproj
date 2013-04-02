@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0B304216EF5E310017EF3A /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B304116EF5E310017EF3A /* Tree.m */; };
 		CDDF4BD816E62F2500BC5BF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDF4BD716E62F2500BC5BF3 /* UIKit.framework */; };
 		CDDF4BDA16E62F2500BC5BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDF4BD916E62F2500BC5BF3 /* Foundation.framework */; };
 		CDDF4BDC16E62F2500BC5BF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDF4BDB16E62F2500BC5BF3 /* CoreGraphics.framework */; };
@@ -18,9 +19,15 @@
 		CDDF4BEE16E62F2500BC5BF3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDF4BED16E62F2500BC5BF3 /* Default-568h@2x.png */; };
 		CDDF4BF116E62F2500BC5BF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDF4BF016E62F2500BC5BF3 /* ViewController.m */; };
 		CDDF4BF416E62F2500BC5BF3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDDF4BF216E62F2500BC5BF3 /* ViewController.xib */; };
+		CDDF4BFC16E62F6E00BC5BF3 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDF4BFB16E62F6E00BC5BF3 /* Animal.m */; };
+		CDDF4BFF16E6307A00BC5BF3 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDF4BFE16E6307A00BC5BF3 /* Food.m */; };
+		CDDF4C0316E631B600BC5BF3 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDF4C0216E631B600BC5BF3 /* Cat.m */; };
+		CDDF4C0616E6347F00BC5BF3 /* Tiger.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDF4C0516E6347F00BC5BF3 /* Tiger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0B304016EF5E310017EF3A /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		CD0B304116EF5E310017EF3A /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		CDDF4BD316E62F2500BC5BF3 /* AnimalWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDF4BD716E62F2500BC5BF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CDDF4BD916E62F2500BC5BF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +44,16 @@
 		CDDF4BEF16E62F2500BC5BF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CDDF4BF016E62F2500BC5BF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDDF4BF316E62F2500BC5BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CDDF4BFA16E62F6E00BC5BF3 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		CDDF4BFB16E62F6E00BC5BF3 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		CDDF4BFD16E6307A00BC5BF3 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		CDDF4BFE16E6307A00BC5BF3 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		CDDF4C0116E631B600BC5BF3 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		CDDF4C0216E631B600BC5BF3 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		CDDF4C0416E6347F00BC5BF3 /* Tiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tiger.h; sourceTree = "<group>"; };
+		CDDF4C0516E6347F00BC5BF3 /* Tiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tiger.m; sourceTree = "<group>"; };
+		CDDF4C0816E6361500BC5BF3 /* LeoTreo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeoTreo.h; sourceTree = "<group>"; };
+		CDDF4C0916E636D200BC5BF3 /* Swim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swim.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +100,13 @@
 		CDDF4BDD16E62F2500BC5BF3 /* AnimalWorld */ = {
 			isa = PBXGroup;
 			children = (
+				CDDF4C0716E635E900BC5BF3 /* Protocols */,
 				CDDF4BE616E62F2500BC5BF3 /* AppDelegate.h */,
 				CDDF4BE716E62F2500BC5BF3 /* AppDelegate.m */,
 				CDDF4BEF16E62F2500BC5BF3 /* ViewController.h */,
 				CDDF4BF016E62F2500BC5BF3 /* ViewController.m */,
 				CDDF4BF216E62F2500BC5BF3 /* ViewController.xib */,
+				CDDF4C0016E6308500BC5BF3 /* Classes */,
 				CDDF4BDE16E62F2500BC5BF3 /* Supporting Files */,
 			);
 			path = AnimalWorld;
@@ -105,6 +124,32 @@
 				CDDF4BED16E62F2500BC5BF3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDDF4C0016E6308500BC5BF3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CDDF4C0116E631B600BC5BF3 /* Cat.h */,
+				CDDF4C0216E631B600BC5BF3 /* Cat.m */,
+				CDDF4BFA16E62F6E00BC5BF3 /* Animal.h */,
+				CDDF4BFB16E62F6E00BC5BF3 /* Animal.m */,
+				CDDF4BFD16E6307A00BC5BF3 /* Food.h */,
+				CDDF4BFE16E6307A00BC5BF3 /* Food.m */,
+				CDDF4C0416E6347F00BC5BF3 /* Tiger.h */,
+				CDDF4C0516E6347F00BC5BF3 /* Tiger.m */,
+				CD0B304016EF5E310017EF3A /* Tree.h */,
+				CD0B304116EF5E310017EF3A /* Tree.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CDDF4C0716E635E900BC5BF3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CDDF4C0816E6361500BC5BF3 /* LeoTreo.h */,
+				CDDF4C0916E636D200BC5BF3 /* Swim.h */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +221,11 @@
 				CDDF4BE416E62F2500BC5BF3 /* main.m in Sources */,
 				CDDF4BE816E62F2500BC5BF3 /* AppDelegate.m in Sources */,
 				CDDF4BF116E62F2500BC5BF3 /* ViewController.m in Sources */,
+				CDDF4BFC16E62F6E00BC5BF3 /* Animal.m in Sources */,
+				CDDF4BFF16E6307A00BC5BF3 /* Food.m in Sources */,
+				CDDF4C0316E631B600BC5BF3 /* Cat.m in Sources */,
+				CDDF4C0616E6347F00BC5BF3 /* Tiger.m in Sources */,
+				CD0B304216EF5E310017EF3A /* Tree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +341,7 @@
 				CDDF4BF916E62F2500BC5BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
